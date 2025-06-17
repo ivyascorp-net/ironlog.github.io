@@ -84582,7 +84582,7 @@ return A.E($async$C1,r)},
 BE(a){return this.apW(a)},
 apW(a){var s=0,r=A.F(t.ui),q,p,o,n
 var $async$BE=A.B(function(b,c){if(b===1)return A.C(c,r)
-while(true)switch(s){case 0:o=A.df("http://10.0.2.2:3000/user/register")
+while(true)switch(s){case 0:o=A.df("http://localhost:3000/user/register")
 n=t.N
 n=A.a9(["Authorization","Bearer "+A.k(a.a)],n,n)
 s=3
@@ -84600,7 +84600,7 @@ Ac(){var s=0,r=A.F(t.Bp),q,p,o
 var $async$Ac=A.B(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.G(A.Xw(A.df("http://10.0.2.2:3000/workouts"),A.a9(["Content-Type","application/json"],p,p)),$async$Ac)
+return A.G(A.Xw(A.df("http://localhost:3000/workouts"),A.a9(["Content-Type","application/json"],p,p)),$async$Ac)
 case 3:o=b
 if(o.b===200){p=J.iU(B.aq.mm(A.i2(A.i0(o.e)).cH(o.w),null),new A.agv(),t.sK)
 q=A.a0(p,!0,p.$ti.i("ap.E"))
@@ -84611,7 +84611,7 @@ return A.E($async$Ac,r)},
 zN(a,b){return this.ak2(a,b)},
 ak2(a,b){var s=0,r=A.F(t.sK),q,p,o,n
 var $async$zN=A.B(function(c,d){if(c===1)return A.C(d,r)
-while(true)switch(s){case 0:o=A.df("http://10.0.2.2:3000/workouts")
+while(true)switch(s){case 0:o=A.df("http://localhost:3000/workouts")
 n=t.N
 n=A.a9(["Content-Type","application/json"],n,n)
 s=3
@@ -84626,7 +84626,7 @@ A9(){var s=0,r=A.F(t.xW),q,p,o,n,m,l
 var $async$A9=A.B(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:m=t.N
 s=3
-return A.G(A.Xw(A.df("http://10.0.2.2:3000/exercise/categories"),A.a9(["Content-Type","application/json"],m,m)),$async$A9)
+return A.G(A.Xw(A.df("http://localhost:3000/exercise/categories"),A.a9(["Content-Type","application/json"],m,m)),$async$A9)
 case 3:l=b
 m=l.b
 p=l.e
@@ -84648,7 +84648,7 @@ al7(a){var s=0,r=A.F(t.j),q,p,o,n,m
 var $async$Aa=A.B(function(b,c){if(b===1)return A.C(c,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.G(A.Xw(A.df("http://10.0.2.2:3000//exercise/categories/"+a+"/exercises"),A.a9(["Content-Type","application/json"],n,n)),$async$Aa)
+return A.G(A.Xw(A.df("http://localhost:3000//exercise/categories/"+a+"/exercises"),A.a9(["Content-Type","application/json"],n,n)),$async$Aa)
 case 3:m=c
 n=m.b
 p=m.e
@@ -84662,7 +84662,7 @@ z6(a,b){return this.ahT(a,b)},
 ahT(a,b){var s=0,r=A.F(t.H),q,p,o,n,m
 var $async$z6=A.B(function(c,d){if(c===1)return A.C(d,r)
 while(true)switch(s){case 0:if(a==null||b.c==null)throw A.f(A.c2("Workout ID and Exercise ID must not be null"))
-q=A.df("http://10.0.2.2:3000/workouts/"+A.k(a)+"/exercises")
+q=A.df("http://localhost:3000/workouts/"+A.k(a)+"/exercises")
 p=t.N
 o=A.a9(["Content-Type","application/json"],p,p)
 n=b.f
@@ -84679,7 +84679,7 @@ al9(a){var s=0,r=A.F(t.kh),q,p,o,n
 var $async$uW=A.B(function(b,c){if(b===1)return A.C(c,r)
 while(true)switch(s){case 0:o=t.N
 s=3
-return A.G(A.Xw(A.df("http://10.0.2.2:3000/workouts/"+a+"/exercises"),A.a9(["Content-Type","application/json"],o,o)),$async$uW)
+return A.G(A.Xw(A.df("http://localhost:3000/workouts/"+a+"/exercises"),A.a9(["Content-Type","application/json"],o,o)),$async$uW)
 case 3:n=c
 o=n.b
 if(o===200){p=B.aq.mm(A.i2(A.i0(n.e)).cH(n.w),null)
@@ -84700,7 +84700,7 @@ ajd(a){var s=0,r=A.F(t.sK),q,p,o
 var $async$zA=A.B(function(b,c){if(b===1)return A.C(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.G(A.XC(A.df("http://10.0.2.2:3000/workouts/"+a+"/complete"),null,A.a9(["Content-Type","application/json"],p,p)),$async$zA)
+return A.G(A.XC(A.df("http://localhost:3000/workouts/"+a+"/complete"),null,A.a9(["Content-Type","application/json"],p,p)),$async$zA)
 case 3:o=c
 p=o.b
 if(p===200||p===201){q=A.auF(t.a.a(B.aq.mm(A.i2(A.i0(o.e)).cH(o.w),null)))
@@ -84713,7 +84713,7 @@ ake(a){var s=0,r=A.F(t.H),q
 var $async$zS=A.B(function(b,c){if(b===1)return A.C(c,r)
 while(true)switch(s){case 0:q=t.N
 s=2
-return A.G(A.aDF(A.df("http://10.0.2.2:3000/workouts/"+a),A.a9(["Content-Type","application/json"],q,q)),$async$zS)
+return A.G(A.aDF(A.df("http://localhost:3000/workouts/"+a),A.a9(["Content-Type","application/json"],q,q)),$async$zS)
 case 2:q=c.b
 if(q!==200&&q!==204)throw A.f(A.c2("Failed to delete workout"))
 return A.D(null,r)}})
@@ -84721,7 +84721,7 @@ return A.E($async$zS,r)},
 wB(a,b,c){return this.YD(a,b,c)},
 YD(a,b,c){var s=0,r=A.F(t.H),q,p
 var $async$wB=A.B(function(d,e){if(d===1)return A.C(e,r)
-while(true)switch(s){case 0:q=A.df("http://10.0.2.2:3000/workouts/"+a+"/exercise_sets/"+b)
+while(true)switch(s){case 0:q=A.df("http://localhost:3000/workouts/"+a+"/exercise_sets/"+b)
 p=t.N
 p=A.a9(["Content-Type","application/json"],p,p)
 s=2
